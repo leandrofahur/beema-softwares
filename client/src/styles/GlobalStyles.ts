@@ -3,15 +3,14 @@ import styled from 'styled-components';
 
 export default createGlobalStyle`
   :root {
-    --black: #000000;    
-    
+    --black: #000000;
     --light-gray: #E1E1E6;
     --gray: #A8A8B3;
     --dark-gray: #121214;
     --light-red: #FF3333;
     --red: #C23E3C;
     --yellow: #EBA417;
-    --white: #FFFFFF; 
+    --white: #FFFFFF;
   }
   * {
     margin: 0;
