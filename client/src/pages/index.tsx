@@ -6,6 +6,7 @@ import { QualitySection } from '../layouts/QualitySection';
 import { CoreSection } from '../layouts/CoreSection';
 
 import { Container } from './styles';
+import { HowItWorksSection } from '../layouts/HowItWorksSection';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <ServiceSection />
       <QualitySection />
       <CoreSection />
+      <HowItWorksSection />
     </>
   );
 }
