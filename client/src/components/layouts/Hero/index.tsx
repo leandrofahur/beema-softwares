@@ -28,7 +28,7 @@ import { Button } from '../../Button';
 export const Hero: React.FC = () => {
   return (
     <>
-      <Header>
+      <Header id="/">
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

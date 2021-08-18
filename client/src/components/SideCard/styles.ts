@@ -3,12 +3,12 @@ import { motion } from 'framer-motion';
 
 export const CardContainer = styled(motion.div)`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 240px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 540px;
   margin: 0 1rem;
-  padding: 2rem;
+  padding: 1rem;
 `;
 
 export const CardTitle = styled.h4`
@@ -20,6 +20,6 @@ export const CardContent = styled.h6`
   font-size: 15px;
   font-weight: 400;
   text-align: justify;
-  padding-top: 2rem;
-  line-height: 1.8rem;
+  padding-top: 1rem;
+  line-height: 1.2rem;
 `;

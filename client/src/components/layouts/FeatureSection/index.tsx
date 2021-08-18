@@ -6,9 +6,6 @@ import PartnershipImg from '../../../assets/feature/partnership.svg';
 import SubscriptionImg from '../../../assets/feature/subscription.svg';
 import SupportImg from '../../../assets/feature/support.svg';
 
-// icons:
-import { BsLightning } from 'react-icons/bs';
-
 import { Card } from '../../Card';
 
 import {
@@ -50,32 +47,32 @@ const cardList = [
     img: PerformanceImg,
     title: 'Fast Performance',
     content:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
   },
   {
     img: PartnershipImg,
     title: 'Partnership Deal',
     content:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
   },
   {
     img: SubscriptionImg,
     title: 'Pro subscription',
     content:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
   },
   {
     img: SupportImg,
     title: 'Customer Support',
     content:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
   },
 ];
 
 export const FeatureSection: React.FC = () => {
   return (
     <>
-      <Section>
+      <Section style={{ padding: '15rem 1rem' }} id="advertise">
         <Container variants={parentVariants} initial="hidden" animate="visible">
           <SectionLead>Whats the function</SectionLead>
           <SectionTitle>Meet the feature of product</SectionTitle>

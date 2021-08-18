@@ -51,11 +51,11 @@ export default createGlobalStyle`
 
 export const Section = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 100%;
 `;
 
 export const Container = styled(motion.div)`
-  padding: 15rem 1rem;
+  /* padding: 15rem 1rem; */
   max-width: 1280px;
   margin: auto;
 `;
@@ -76,7 +76,6 @@ export const SectionTitle = styled.h2`
 `;
 
 export const GroupContainer = styled(motion.div)`
-  padding-top: 7rem;
   display: flex;
   justify-content: center;
 `;

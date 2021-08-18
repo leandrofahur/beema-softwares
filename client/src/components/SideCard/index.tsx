@@ -10,7 +10,12 @@ interface ICard {
   variants?: {};
 }
 
-export const Card: React.FC<ICard> = ({ img, title, content, variants }) => {
+export const SideCard: React.FC<ICard> = ({
+  img,
+  title,
+  content,
+  variants,
+}) => {
   return (
     <>
       <CardContainer
@@ -22,8 +27,10 @@ export const Card: React.FC<ICard> = ({ img, title, content, variants }) => {
         style={{ marginTop: '5rem' }}
       >
         <Image src={img} width={80} height={80} />
-        <CardTitle>{title}</CardTitle>
-        <CardContent>{content}</CardContent>
+        <div style={{ marginLeft: '2rem' }}>
+          <CardTitle>{title}</CardTitle>
+          <CardContent>{content}</CardContent>
+        </div>
       </CardContainer>
     </>
   );
