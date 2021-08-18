@@ -1,11 +1,14 @@
 import React from 'react';
+import { Hero } from '../components/layouts/Hero';
+import { FeatureSection } from '../components/layouts/FeatureSection';
 
 import { Container } from './styles';
 
 export default function Home() {
   return (
     <>
-      <h1>Nextjs</h1>
+      <Hero />
+      <FeatureSection />
     </>
   );
 }
