@@ -78,4 +78,5 @@ export const SectionTitle = styled.h2`
 export const GroupContainer = styled(motion.div)`
   padding-top: 7rem;
   display: flex;
+  justify-content: center;
 `;

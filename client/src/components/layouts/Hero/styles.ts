@@ -9,6 +9,10 @@ export const Container = styled.div`
   padding: 0.7rem 1rem;
   max-width: 1280px;
   margin: auto;
+
+  &.btn:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Header = styled.header`
@@ -46,7 +50,7 @@ export const Content = styled(motion.div)`
 
 export const Title = styled.h1`
   position: absolute;
-  top: 200px;
+  top: 180px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 70px;
@@ -55,12 +59,12 @@ export const Title = styled.h1`
   z-index: 10;
 `;
 
-export const Subitle = styled.h1`
-  position: relative;
-  top: 520px;
+export const SubTitle = styled.h3`
+  position: absolute;
+  top: 320px;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: 32px;
   font-weight: 400;
   z-index: 10;
 `;
