@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 // assets:
-import PerformanceImg from '../../../assets/feature/performance.svg';
-import PartnershipImg from '../../../assets/feature/partnership.svg';
-import SubscriptionImg from '../../../assets/feature/subscription.svg';
-import SupportImg from '../../../assets/feature/support.svg';
+import PerformanceImg from '../../assets/feature/performance.svg';
+import PartnershipImg from '../../assets/feature/partnership.svg';
+import SubscriptionImg from '../../assets/feature/subscription.svg';
+import SupportImg from '../../assets/feature/support.svg';
 
-import { Card } from '../../Card';
+import { Card } from '../../components/Card';
 
 import {
   Section,
@@ -14,7 +14,7 @@ import {
   SectionTitle,
   SectionLead,
   GroupContainer,
-} from '../../../styles/GlobalStyles';
+} from '../../styles/GlobalStyles';
 
 const parentVariants = {
   hidden: { x: '100vw' },

@@ -1,19 +1,19 @@
 import Image from 'next/image';
 
 // assets:
-import ServiceThumbImg from '../../../assets/service-thumb.png';
-import ShapePattern1Img from '../../../assets/shape-pattern1.png';
-import SecureServiceImg from '../../../assets/services/secure.svg';
-import SmartServiceImg from '../../../assets/services/smart.svg';
+import ServiceThumbImg from '../../assets/service-thumb.png';
+import ShapePattern1Img from '../../assets/shape-pattern1.png';
+import SecureServiceImg from '../../assets/services/secure.svg';
+import SmartServiceImg from '../../assets/services/smart.svg';
 
-import { SideCard } from '../../SideCard';
+import { SideCard } from '../../components/SideCard';
 
 import {
   Section,
   Container,
   SectionLead,
   SectionTitle,
-} from '../../../styles/GlobalStyles';
+} from '../../styles/GlobalStyles';
 
 import {
   FlexContainer,

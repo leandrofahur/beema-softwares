@@ -4,10 +4,10 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 // assets:
-import LogoImg from '../../../assets/logo.svg';
-import ShapeLeft from '../../../assets/shape-left.png';
-import ShapeRight from '../../../assets/shape-right.png';
-import BannerThumbImg from '../../../assets/banner-thumb.png';
+import LogoImg from '../../assets/logo.svg';
+import ShapeLeft from '../../assets/shape-left.png';
+import ShapeRight from '../../assets/shape-right.png';
+import BannerThumbImg from '../../assets/banner-thumb.png';
 
 // icons:
 import { BiChevronDown } from 'react-icons/bi';
@@ -23,7 +23,7 @@ import {
 } from './styles';
 import React from 'react';
 
-import { Button } from '../../Button';
+import { Button } from '../../components/Button';
 
 export const Hero: React.FC = () => {
   return (

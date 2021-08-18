@@ -1,9 +1,10 @@
 import React from 'react';
-import { Hero } from '../components/layouts/Hero';
-import { FeatureSection } from '../components/layouts/FeatureSection';
+import { Hero } from '../layouts/Hero';
+import { FeatureSection } from '../layouts/FeatureSection';
+import { ServiceSection } from '../layouts/ServicesSection';
+import { QualitySection } from '../layouts/QualitySection';
 
 import { Container } from './styles';
-import { ServiceSection } from '../components/layouts/ServicesSection';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <FeatureSection />
       <ServiceSection />
+      <QualitySection />
     </>
   );
 }
